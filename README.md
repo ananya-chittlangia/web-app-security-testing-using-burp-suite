@@ -37,7 +37,7 @@ This document outlines the process of capturing login credentials on DVWA using 
 - [DVWA Setup](https://www.youtube.com/watch?v=WkyDxNJkgQ4)
 - [Burp Suite Setup](https://www.youtube.com/watch?v=ZWKqxQF6aow&t=21s)
 
-### Screenshots:
+
 ![Screenshot 1](Images/1.png)
 
 ![Screenshot 2](Images/2.png)
