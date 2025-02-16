@@ -63,26 +63,31 @@ This document outlines the process of capturing login credentials on DVWA using 
 ### Intercepting Login Requests with Burp Suite
 1. Open Burp Suite, go to `Proxy > Intercept`, and ensure Intercept is ON.
 2. Use Burp Suite’s browser to navigate to `http://localhost/DVWA/login.php`.
-3. Click **Forward** in Burp Suite to allow the captured request to proceed to the server.
+3. Click `Forward` in Burp Suite to allow the captured request to proceed to the server.
 4. Enter any credentials (e.g., `admin/password123`) and attempt to log in.
 5. The intercepted HTTP request will display the credentials in plaintext.
 
 ### Screenshot:
-![Intercepted Request](path/to/screenshot2.png)
+![Screenshot 10](Images/10.png)
+
+![Screenshot 11](Images/11.png)
+
+![Screenshot 12](Images/12.png)
+
+![Screenshot 13](Images/13.png)
+
+![Screenshot 14](Images/14.png)
 
 ---
 
 ## Phase 3: Extracting Credentials
 
-### Captured HTTP Request Example
-(Sample HTTP request with credentials in plaintext)
+### Captured HTTP Request
+![Screenshot 15](Images/15.png)
 
 ### Key Findings
 - The username and password are transmitted in plaintext, making them vulnerable to interception.
 - This highlights security flaws in unencrypted authentication systems.
-
-### Screenshot:
-![Captured Credentials](path/to/screenshot3.png)
 
 ---
 
@@ -93,7 +98,7 @@ This document outlines the process of capturing login credentials on DVWA using 
 - Practical application of Burp Suite for security testing.
 - How attackers can exploit unencrypted credential transmission.
 
-### Prevention
+### Prevention Strategies
 1. **Secure Authentication:** Implement strong password hashing (e.g., bcrypt, Argon2) and multi-factor authentication (MFA) to protect user credentials.
 2. **Use HTTPS:** Enforce HTTPS with SSL/TLS certificates to encrypt data in transit and prevent man-in-the-middle attacks.
 3. **Secure Sessions:** Implement secure session management with HTTP-only, secure, and same-site cookies to prevent session hijacking.
