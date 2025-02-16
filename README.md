@@ -33,28 +33,28 @@ This document outlines the process of capturing login credentials on DVWA using 
 4. Install and configure Burp Suite for intercepting requests.
 
 ### Video Resources:
-- Virtual Box & Kali Linux Setup
-- DVWA Setup
-- Burp Suite Setup
+- [VirtualBox & Kali Linux Setup](https://www.youtube.com/watch?v=wCEPusruqQM)
+- [DVWA Setup](https://www.youtube.com/watch?v=WkyDxNJkgQ4)
+- [Burp Suite Setup](https://www.youtube.com/watch?v=ZWKqxQF6aow&t=21s)
 
 ### Screenshots:
-/Images/1.png
+![Screenshot 1](Images/1.png)
 
-/Images/2.png
+![Screenshot 2](Images/2.png)
 
-/Images/3.png
+![Screenshot 3](Images/3.png)
 
-/Images/4.png
+![Screenshot 4](Images/4.png)
 
-/Images/5.png
+![Screenshot 5](Images/5.png)
 
-/Images/6.png
+![Screenshot 6](Images/6.png)
 
-/Images/7.png
+![Screenshot 7](Images/7.png)
 
-/Images/8.png
+![Screenshot 8](Images/8.png)
 
-/Images/9.png
+![Screenshot 9](Images/9.png)
 
 ---
 
