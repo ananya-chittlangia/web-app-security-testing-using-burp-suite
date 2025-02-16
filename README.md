@@ -70,7 +70,7 @@ This document outlines the process of capturing login credentials on DVWA using 
 ### Screenshot:
 ![Screenshot 10](Images/10.png)
 
-![Screenshot 11](Images/11.png)
+![Screenshot 11](Images/11..png)
 
 ![Screenshot 12](Images/12.png)
 
