@@ -111,9 +111,3 @@ This document outlines the process of capturing login credentials on DVWA using 
 - [DVWA Setup Guide](https://www.youtube.com/watch?v=WkyDxNJkgQ4)
 - [Burp Suite Download](https://portswigger.net/burp/documentation/desktop/getting-started/download-and-install)
 - [Burp Suite Configuration](https://www.youtube.com/watch?v=ZWKqxQF6aow&t=21s)
-
----
-
-## Notes
-Replace `path/to/screenshotX.png` with the actual image paths before uploading to GitHub.
-
